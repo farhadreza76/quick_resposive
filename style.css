@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Saira',sans-serif;
+    color: #3B506C;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+img{
+    max-width:100%;
+}
+.j-center{
+    justify-content: center;
+}
+.i-center{
+    align-items: center; 
+}
+.red{
+    background:#FDEBED;
+}
+.green{
+    background:#EBF9F4;
+}
+span{
+    color: #0C66FF;
+    display: block;
+}
+.float-right{
+    float: right;
+    text-align: right;
+}
+.col-1-3{
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+
+header{
+    border-bottom:1px solid #3b506c57;
+    position:sticky;
+    top:0;
+    background:#dfe6e94f;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    color:#3B506C;
+}
+nav ul li a:hover{}
+
+
+.about-section{}
+article{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+article h1{
+    font-size: 50px;
+    line-height: 65px;
+    padding-top: 30px;
+    text-transform:capitalize;
+}
+article p{
+    font-size: 20px;
+}
+article img{
+    max-width:400px;
+    padding: 20px 0;
+}
+
+
+.feature-section{}
+.feature{
+    max-width: 400px;
+    padding: 35px 0;
+}
+.feature h2{
+    font-size: 50px;
+    color:#F15767;
+}
+.feature p{
+    font-size: 20px;
+}
+.feature h3{
+    font-size: 50px;
+    line-height:1.2;
+}
+
+
+.blog-section{
+    padding: 20px 0 40px 0;
+}
+.post{
+    padding: 50px 42px;
+}
+.post h4{
+    font-size: 20px;
+    padding: 20px 0 3px 0;
+    font-weight: 500;
+}
+.post p{
+    font-size: 20px;
+}
+.post img{
+    height:240px;
+    margin: auto;
+    display: block;
+}
+
+
+footer{
+    background:#008AFF;
+    color:white;
+   padding:10px 0;
+}
+footer p{
+    text-align:center;
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
